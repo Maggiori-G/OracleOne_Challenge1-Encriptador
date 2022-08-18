@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Encriptador Gianni Maggiori</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header class="titulo">
+			<h1>Oracle One - Challenge Encriptador</h1>
+			<img src="imagenes/Logo@2x.png">
+		</header>
+		<main class="main">
+			
+			<section class="rectangulo1">
+				<h2 class="titulo2">
+					Ingrese el texto sin acentos o caracteres especiales
+				</h2>
+				<textarea class="input" type="text" name="texto" placeholder="Ingrese texto aqui" cols="70" rows="10" id="txtInicial"></textarea>
+				<button class="botones" onclick="encrypt()">
+					Encriptar
+				</button>
+				<button class="botones" onclick="decrypt()">
+					Desencriptar
+				</button>
+				
+			</section>
+			<section class="rectangulo2">
+				<h2 class="titulo2">
+					Texto final
+				</h2>
+				<textarea class="output" type="text" name="texto" placeholder="No se encontro texto" cols="70" rows="10" id="txtFinal"></textarea>
+				<button  id="copy" class="botones" onclick="copyText()">
+					Copiar
+				</button>
+			</section>
+		</main>
+		<footer class="info">
+			<p >
+				&copy Copyright Gianni Maggiori, 2022
+			</p>
+			<nav>
+				<ul>
+	                <li><a href="https://github.com/Maggiori-G">GitHub</a></li>
+	                <li><a href="https://www.linkedin.com/in/gianni-maggiori-b40189226/">Contacto</a></li>
+            	</ul>
+			</nav>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>

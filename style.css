@@ -1,0 +1,126 @@
+body{
+	position: relative;
+	min-height: 100vh;
+	background: url(imagenes/back1.jfif);
+}
+.titulo{
+	padding: 30px;
+  	width: 100;
+  	text-align: center;
+  	color: coral;
+}
+.titulo h1{
+	text-align: center;
+	font-style: italic;
+	font-size: 70px;
+}
+.titulo img{
+	margin-top: 30px;
+}
+.main{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.rectangulo1{
+	height: 450px;
+	width: 800px;
+	margin-left: 25px;
+}
+.titulo2{
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	color: lightblue;
+}
+.input{
+	resize: none;
+	margin-top: 20px;
+	margin-left: 35px;
+	font-size: 30px;
+	padding: 4px;
+	border-style: solid;
+	border-width: medium;
+	border-color: black;
+	border-radius: 10px;
+	width: 90%;
+	background-color: rgba(113,113,113, 0.7);
+	font-family: Times-Italic;
+}
+.input::placeholder{
+	color: black;
+	font-weight: bold;
+}
+.botones{
+	height: 70px;
+	width: 160px;
+	display: inline-block;
+	border-style: solid;
+	margin-top: 30px;
+	margin-left: 140px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 13px;
+}
+.botones:hover{
+	border-color: indianred;
+	font-size: 22px;
+}
+.rectangulo2{
+	
+	height: 450px;
+	width: 800px;
+	margin-left: 25px;
+}
+.rectangulo2 h2{
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+}
+.output{
+	background-color: darkgray;
+	resize: none;
+	margin-top: 20px;
+	margin-left: 35px;
+	font-size: 30px;
+	padding: 4px;
+	border-style: solid;
+	border-width: medium;
+	border-color: black;
+	border-radius: 10px;
+	width: 90%;
+	font-family: Times-Italic;
+	background-color: rgba(113,113,113, 0.7);
+}
+.output::placeholder{
+	color: black;
+	font-weight: bold;
+}
+.info{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 45px;
+	color: coral;
+}
+nav li{
+	display: inline;
+}
+nav a{
+    text-transform: uppercase;
+    color: coral;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
