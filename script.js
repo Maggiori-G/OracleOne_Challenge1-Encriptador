@@ -1,5 +1,5 @@
 function validString(text){
-	let regExp=/[^a-z]/gm;;
+	let regExp=/[^a-z\s]/gm;;
 	let isValid=true;
 	if(regExp.test(text)){
 		isValid=false;
